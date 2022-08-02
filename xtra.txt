@@ -1,0 +1,19 @@
+def Find(Inp):
+  for l in Inp:
+    for a in B_Map:
+      for b in B_Key:
+        if a==l:
+          return (int(B_Map.index(a))+int(b))
+
+def deletion(FindReturn):
+  Result_L.append(B_Map[FindReturn])
+  z=0
+  while z!=int(FindReturn):
+    B_Map.pop(z)
+    z=z+1
+
+for l in Inp:
+  FindReturn=Find(Inp)
+  print(FindReturn)
+#  deletion(FindReturn)
+  
