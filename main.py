@@ -13,7 +13,7 @@ def Initialize(length):
     for i in ascii_uppercase+digits:
       B_Map.append(i)
     x+=1
-#  return B_Map
+#  return B_Ma
   return B_Map
 
 
