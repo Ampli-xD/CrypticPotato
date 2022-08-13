@@ -43,6 +43,11 @@ def pair(Inp, Key):
   return code_pair
 
 
+def LinkLists(Key):
+  for i in ascii_uppercase:
+    for j in Key:
+      
+
 
 
 
