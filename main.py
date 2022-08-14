@@ -2,7 +2,7 @@ from string import *
 B_Map=[]
 B_Key=[]
 code_pair=[]
-Result_L=[]
+LinkedLists={}
 global loop1
 loop1=False
 global num
@@ -46,7 +46,7 @@ def pair(Inp, Key):
 def LinkLists(Key):
   for i in ascii_uppercase:
     for j in Key:
-      
+      LinkedLists=()
 
 
 
