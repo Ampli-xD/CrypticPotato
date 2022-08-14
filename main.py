@@ -12,7 +12,7 @@ for i in ascii_uppercase+digits:
   AlphaList.append(i)
 
 for i in code_pair:
-  TempList.extend(AlphaList[code_pair[i][1]-1,len(code_pair)])
+  TempList.extend(AlphaList[range(code_pair[i][1]-1,len(code_pair))])
   for j in TempList:
     for k in AlphaList:
       CheckList.append(j,k)
