@@ -18,4 +18,4 @@ for i in code_pair:
       CheckList.append(j,k)
   for l in CheckList:
     if code_pair[i][0] == l[0]:
-      print l[1]
+      print (l[1])
