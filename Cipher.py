@@ -1,8 +1,5 @@
 from string import *
-AlphaList=[]
 code_pair=[]
-TempList=[]
-CheckList=[]
 global loop1
 loop1=False
 global num

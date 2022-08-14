@@ -1,7 +1,7 @@
 from Cipher import *
-from ..Cipher.py import CheckList
-from ..Cipher.py import TempList
-from ..Cipher.py import AlphaList
+TempList=[]
+CheckList=[]
+AlphaList=[]
 Inp = input("Enter the text to be converted: ").upper().replace(" ","/")
 Key = input("Enter the key: ")
 pair(Inp, Key)
