@@ -5,3 +5,4 @@ Initialize(len(Inp))
 pair(Inp, Key)
 
 for i in code_pair: print(i)
+
