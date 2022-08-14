@@ -1,18 +1,13 @@
 from string import *
-B_Map=[]
-B_Key=[]
+AlphaList=[]
 code_pair=[]
+TempList=[]
+CheckList=[]
 global loop1
 loop1=False
 global num
 num=0
-#def Initialize(length):
-#  x=0
-#  while x!=10000:
-#    for i in ascii_uppercase+digits:
-#      B_Map.append(i)
-#    x+=1
-#  return B_Map
+
 
 
 def pair(Inp, Key):
